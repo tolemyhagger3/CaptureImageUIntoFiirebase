@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="Honorable User">
+        <menu>
+            <item
+                android:id="@+id/nav_post"
+                android:title="Post"/>
+            <item
+                android:id="@+id/nav_appointment"
+                android:title="Appointment"
+                 />
+
+            <item
+                android:id="@+id/nav_quiz"
+                android:title="Take Quiz Challenge"
+                />
+        </menu>
+    </item>
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_notes"
+                android:title="Notes"
+                />
+            <item
+                android:id="@+id/nav_notes_add"
+                android:title="Add Notes"
+                />
+            <item
+                android:id="@+id/nav_sync_notes"
+                android:title="Sync Notes"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Share App"
+                />
+            <item
+                android:id="@+id/nav_logout"
+                android:title="LogOut"
+                />
+
+
+        </menu>
+    </item>
+
+</menu>
